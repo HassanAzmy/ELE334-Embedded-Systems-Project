@@ -268,7 +268,7 @@ void GPIOPortF_Handler(void) {
 	else{
 		brid_y_pos = brid_y_pos -3;
 	}
-	*/ // will be changed 
+	*/ 
 	GPIO_PORTF_ICR_R = (1 << 0 | 1 << 4);
 
 }
@@ -308,18 +308,7 @@ void Timer2A_Handler(void){
 		current_lvl = 3;
 	}
 	
-	/*
-	if (adc_value<=1023){
-		Nokia5110_ClearBuffer();
-		current_lvl =1;
-	} else if (adc_value > 1023 && adc_value < 3071) {
-		Nokia5110_ClearBuffer();
-		current_lvl =2; 
-	} else if (adc_value>3071){
-		 Nokia5110_ClearBuffer();
-		current_lvl =3;
-	}
-*/
+
 	switch(g_current_state)
 		{
 		case STATE_START: //start screen, ask to push switch to start game

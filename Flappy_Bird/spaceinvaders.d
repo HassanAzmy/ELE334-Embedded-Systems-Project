@@ -1,5 +1,4 @@
 .\spaceinvaders.o: SpaceInvaders.c
-.\spaceinvaders.o: PLL.h
 .\spaceinvaders.o: GamePlay.h
 .\spaceinvaders.o: H:\Education\Embeded\Set up\ARM\ARMCC\bin\..\include\stdbool.h
 .\spaceinvaders.o: H:\Education\Embeded\Set up\ARM\ARMCC\bin\..\include\stdlib.h
