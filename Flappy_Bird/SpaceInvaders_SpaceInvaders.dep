@@ -3,11 +3,79 @@ F (.\startup.s)(0x67648321)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SET
 F (.\Nokia5110.c)(0x67648321)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I "H:\Education\Embeded\Set up\ARM\RV31\INC"-I "H:\Education\Embeded\Set up\ARM\CMSIS\Include"-I "H:\Education\Embeded\Set up\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\nokia5110.o --omf_browse .\nokia5110.crf --depend .\nokia5110.d)
 I (Nokia5110.h)(0x67648321)
 F (.\random.s)(0x67648321)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -I "H:\Education\Embeded\Set up\ARM\RV31\INC"-I "H:\Education\Embeded\Set up\ARM\CMSIS\Include"-I "H:\Education\Embeded\Set up\ARM\Inc\Luminary"--list .\random.lst --xref -o .\random.o --depend .\random.d)
-F (.\SpaceInvaders.c)(0x6764858F)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I "H:\Education\Embeded\Set up\ARM\RV31\INC"-I "H:\Education\Embeded\Set up\ARM\CMSIS\Include"-I "H:\Education\Embeded\Set up\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\spaceinvaders.o --omf_browse .\spaceinvaders.crf --depend .\spaceinvaders.d)
-I (files/tm4c123gh6pm.h)(0x6115A53F)
+F (.\SpaceInvaders.c)(0x676864E4)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I "H:\Education\Embeded\Set up\ARM\RV31\INC"-I "H:\Education\Embeded\Set up\ARM\CMSIS\Include"-I "H:\Education\Embeded\Set up\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\spaceinvaders.o --omf_browse .\spaceinvaders.crf --depend .\spaceinvaders.d)
+I (PLL.h)(0x5231CF20)
+I (GamePlay.h)(0x6767B515)
+I (H:\Education\Embeded\Set up\ARM\ARMCC\include\stdbool.h)(0x51C819B4)
+I (H:\Education\Embeded\Set up\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (files/tm4c123gh6pm.h)(0x67648874)
 I (Nokia5110.h)(0x67648321)
 I (Random.h)(0x67648321)
 I (TExaS.h)(0x67648321)
+I (Port.h)(0x6767879B)
+I (Timer.h)(0x676789AE)
+I (ADC.h)(0x67678A96)
+I (image.h)(0x67679486)
+I (UART.h)(0x6767953C)
+I (Leds.h)(0x6767A728)
+I (Status.h)(0x67679486)
 F (.\TExaS.c)(0x67648321)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I "H:\Education\Embeded\Set up\ARM\RV31\INC"-I "H:\Education\Embeded\Set up\ARM\CMSIS\Include"-I "H:\Education\Embeded\Set up\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\texas.o --omf_browse .\texas.crf --depend .\texas.d)
 I (TExaS.h)(0x67648321)
-F (.\files\tm4c123gh6pm.h)(0x6115A53F)()
+F (.\files\tm4c123gh6pm.h)(0x67648874)()
+F (.\Port.c)(0x6767AF47)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I "H:\Education\Embeded\Set up\ARM\RV31\INC"-I "H:\Education\Embeded\Set up\ARM\CMSIS\Include"-I "H:\Education\Embeded\Set up\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\port.o --omf_browse .\port.crf --depend .\port.d)
+I (Port.h)(0x6767879B)
+I (H:\Education\Embeded\Set up\ARM\ARMCC\include\time.h)(0x51C819B4)
+I (H:\Education\Embeded\Set up\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (H:\Education\Embeded\Set up\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (files/tm4c123gh6pm.h)(0x67648874)
+I (Nokia5110.h)(0x67648321)
+I (TExaS.h)(0x67648321)
+I (H:\Education\Embeded\Set up\ARM\ARMCC\include\stdbool.h)(0x51C819B4)
+I (H:\Education\Embeded\Set up\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+F (.\Timer.c)(0x6767AEBF)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I "H:\Education\Embeded\Set up\ARM\RV31\INC"-I "H:\Education\Embeded\Set up\ARM\CMSIS\Include"-I "H:\Education\Embeded\Set up\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\timer.o --omf_browse .\timer.crf --depend .\timer.d)
+I (Timer.h)(0x676789AE)
+I (Port.h)(0x6767879B)
+I (Status.h)(0x67679486)
+I (H:\Education\Embeded\Set up\ARM\ARMCC\include\time.h)(0x51C819B4)
+I (H:\Education\Embeded\Set up\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (H:\Education\Embeded\Set up\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (files/tm4c123gh6pm.h)(0x67648874)
+I (Nokia5110.h)(0x67648321)
+I (TExaS.h)(0x67648321)
+I (H:\Education\Embeded\Set up\ARM\ARMCC\include\stdbool.h)(0x51C819B4)
+I (H:\Education\Embeded\Set up\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+F (.\ADC.c)(0x67679486)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I "H:\Education\Embeded\Set up\ARM\RV31\INC"-I "H:\Education\Embeded\Set up\ARM\CMSIS\Include"-I "H:\Education\Embeded\Set up\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
+I (ADC.h)(0x67678A96)
+I (files/tm4c123gh6pm.h)(0x67648874)
+I (Status.h)(0x67679486)
+F (.\image.c)(0x67679486)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I "H:\Education\Embeded\Set up\ARM\RV31\INC"-I "H:\Education\Embeded\Set up\ARM\CMSIS\Include"-I "H:\Education\Embeded\Set up\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\image.o --omf_browse .\image.crf --depend .\image.d)
+I (image.h)(0x67679486)
+F (.\UART.c)(0x6768606C)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I "H:\Education\Embeded\Set up\ARM\RV31\INC"-I "H:\Education\Embeded\Set up\ARM\CMSIS\Include"-I "H:\Education\Embeded\Set up\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (UART.h)(0x6767953C)
+F (.\Leds.c)(0x6767A728)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I "H:\Education\Embeded\Set up\ARM\RV31\INC"-I "H:\Education\Embeded\Set up\ARM\CMSIS\Include"-I "H:\Education\Embeded\Set up\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\leds.o --omf_browse .\leds.crf --depend .\leds.d)
+I (Leds.h)(0x6767A728)
+I (Port.h)(0x6767879B)
+I (Status.h)(0x67679486)
+I (H:\Education\Embeded\Set up\ARM\ARMCC\include\time.h)(0x51C819B4)
+I (H:\Education\Embeded\Set up\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (H:\Education\Embeded\Set up\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (files/tm4c123gh6pm.h)(0x67648874)
+I (Nokia5110.h)(0x67648321)
+I (TExaS.h)(0x67648321)
+I (H:\Education\Embeded\Set up\ARM\ARMCC\include\stdbool.h)(0x51C819B4)
+I (H:\Education\Embeded\Set up\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+F (.\GamePlay.c)(0x676868AC)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I "H:\Education\Embeded\Set up\ARM\RV31\INC"-I "H:\Education\Embeded\Set up\ARM\CMSIS\Include"-I "H:\Education\Embeded\Set up\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\gameplay.o --omf_browse .\gameplay.crf --depend .\gameplay.d)
+I (GamePlay.h)(0x6767B515)
+I (H:\Education\Embeded\Set up\ARM\ARMCC\include\stdbool.h)(0x51C819B4)
+I (H:\Education\Embeded\Set up\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (files/tm4c123gh6pm.h)(0x67648874)
+I (Nokia5110.h)(0x67648321)
+I (Random.h)(0x67648321)
+I (TExaS.h)(0x67648321)
+I (Port.h)(0x6767879B)
+I (Timer.h)(0x676789AE)
+I (ADC.h)(0x67678A96)
+I (image.h)(0x67679486)
+I (UART.h)(0x6767953C)
+I (Leds.h)(0x6767A728)
+I (Status.h)(0x67679486)
